@@ -41,7 +41,7 @@ console.log(arr.filter( (element) => element < 2))
 Array.prototype.sort = function( callback ) {
     console.log("custom sort");
 
-    const retValue = [..this];
+    const retValue = [...this];
     for (let i = 0; i < retVal.length; i++) {
         for (let j = 0; j <retVal.length - 1; j++) {
             if (callback(retVal[j], retVal[j + 1]) > 0) {
