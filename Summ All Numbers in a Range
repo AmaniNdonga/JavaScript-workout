@@ -1,0 +1,11 @@
+//The task was to intake an array of 2 numbers then produce the sum of all numbers between the least ang greatest of the 2.
+
+function sumAll(arr) {
+  let allNum = [];
+  let min= Math.min(..arr);
+  let max= Math.max(..arr);
+  for (var i = min; i <= max; i++) {allNum.push(i);};
+  return all.Num.reduce((sum, a)=> {return sum += a});
+}
+
+sumALL([1,4]);
