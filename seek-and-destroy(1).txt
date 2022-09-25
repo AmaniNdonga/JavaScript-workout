@@ -1,0 +1,17 @@
+function destroyer() {
+  let args = [...arguments]
+  let answer = []
+  let dta = args.shift(0);
+  dta.map(
+    (x) => {
+      
+      if (!args.includes(x)) {
+        answer.push(x);
+      }
+    }
+  )
+
+  return answer;
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
