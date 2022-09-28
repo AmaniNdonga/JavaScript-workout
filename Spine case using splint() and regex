@@ -1,0 +1,8 @@
+//Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+function spinalCase(str) {
+  let sto = str.split(/\s|_|-|(?=[A-Z])/).join("-")
+  return sto.toLowerCase() ;
+}
+
+spinalCase('This Is Spinal Tap');
