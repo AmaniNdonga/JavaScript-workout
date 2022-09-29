@@ -1,0 +1,24 @@
+///yet to be solved
+
+
+
+function translatePigLatin(str) {
+  let vowels = ['a','e','i','o','u'];
+  let consonant = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
+  let cons
+  for (let i = 0; i < str.length; i++) {
+    if(str.startsWith(consonant[i])) {
+     // while (str.startsWith(consonant[i])) {}
+       str.replace(consonant[i],"").concat(consonant[i] 
+      //return cons  + `ay`
+    }
+    if(str.startsWith(vowels[i])) {
+      cons = str.concat(`way`)
+      console.log(cons)
+    }
+  }
+  return str;
+}
+translatePigLatin("california");
+
+//let i = 0; i < str.length; i++
